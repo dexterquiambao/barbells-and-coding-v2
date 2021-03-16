@@ -1,3 +1,28 @@
-h1 {
-  color: red;
+:root{
+  --mainColor:#001524;
+  --secondaryColor:#001B2E;
+
+  --borderColor:#FFECD1;
+
+  --mainText:#8993AF;
+  --secondaryText:#FFECD1;
+
+  --previewBg:rgb(251, 249, 243, 0.8);
+  --previewShadow:#f0ead6;
+
+
+  --buttonColor:#FFECD1;
 }
+
+html, body{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+  color: #303030;
+}
+
+body *{
+  transition: 0.3s;
+}
+
