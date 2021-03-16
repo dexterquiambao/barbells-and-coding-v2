@@ -66,7 +66,7 @@ h6 { font-size: 16px;}
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    padding-left: 2.8rem;
 }
 
 .logo img {
@@ -468,8 +468,8 @@ h6 { font-size: 16px;}
 
 .left-column{
   grid-area: left-column;
-  padding-top:50px;
-  padding-bottom: 50px;
+  padding-top:15px;
+  padding-bottom: 20px;
 }
 
 #profile_pic{
@@ -537,9 +537,9 @@ h6 { font-size: 16px;}
   grid-area: right-column;
   display: grid;
   align-content: left;
-  margin-left: -150px;
-  padding-top:50px;
-  padding-bottom: 50px;
+  margin-left: -220px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .right-column h3, p{
@@ -551,8 +551,8 @@ h6 { font-size: 16px;}
   background-color: var(--previewShadow);
   max-width: 310px;
   height: 120px;
-  padding-left: 30px;
-  padding-top: 30px;
+  padding-left: 25px;
+  padding-top: 25px;
 }
 
 /*Child Element*/
@@ -721,11 +721,18 @@ h6 { font-size: 16px;}
 }
 
 @media screen and (max-width: 500px){
+  .nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 1.2rem;
+}
+
   #preview-shadow{
     max-width: 300px;
     height: 120px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
   }
 
   #preview{
@@ -744,6 +751,7 @@ h6 { font-size: 16px;}
 
 .greeting-wrapper h1{
   text-align: center;
+  font-size: 40px;
   }
 
 
@@ -778,8 +786,8 @@ h6 { font-size: 16px;}
   display: grid;
   align-content: center;
   margin-left: 0;
-  padding-top:50px;
-  padding-bottom: 50px;
+  padding-top:30px;
+  padding-bottom: 30px;
   }
 
 
