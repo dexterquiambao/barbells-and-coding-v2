@@ -26,3 +26,59 @@ body *{
   transition: 0.3s;
 }
 
+/*-----NAVBAR CSS-----*/
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav .brand {
+  font-weight: bold;
+}
+
+nav div.nav-group {
+  display: flex;
+  padding: 50px;
+}
+
+a.menu-item {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.5s ease;
+  border-bottom: 3px solid rgba(0,0,0,0);
+}
+
+a.menu-item:hover {
+  border-bottom: 3px solid #303030;
+}
+
+.nav-group.hamburger {
+  display: none;
+}
+
+.menus .hamburger {
+  display: none;
+}
+
+.menus .hamburger div:first-of-type {
+    transform: rotate(-45deg) translate(-3px, 2px);
+  }
+.menus .hamburger div:last-of-type {
+    transform: rotate(45deg) translate(-3px, -2px);
+  }
+
+.hamburger div {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #303030;
+  margin: 5px;
+}
+
+.nav-group.menus .menu-item:not(:first-child) {
+  margin-left: 1.4rem;
+}
