@@ -387,6 +387,10 @@ h6 { font-size: 16px;}
   margin: 0 auto;
 }
 
+.main-container p{
+  color: var(--secondaryText);
+}
+
 .greeting-wrapper{
   align-content: left;
   min-height: 10em;
@@ -543,7 +547,7 @@ h6 { font-size: 16px;}
   padding-bottom: 20px;
 }
 
-.right-column h3, p{
+.right-column p{
   color: var(--mainColor);
 }
 
@@ -552,8 +556,8 @@ h6 { font-size: 16px;}
   background-color: var(--previewShadow);
   max-width: 310px;
   height: 120px;
-  padding-left: 25px;
-  padding-top: 25px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 /*Child Element*/
@@ -594,19 +598,10 @@ h6 { font-size: 16px;}
   left: -5px;
 }
 
-.about-wrapper{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  padding-bottom: 50px;
-  padding-top: 50px;
-  gap:100px;
-}
-
 
 #skills{
   display: flex;
-  justify-content: space-evenly;
-  background-color: var(--previewShadow);
+  justify-content: left;
   margin-bottom: 20px;
 }
 
@@ -699,6 +694,7 @@ h6 { font-size: 16px;}
   background-color: var(--buttonColor);
   border:none;
 }
+
 
 @media screen and (max-width: 1200px){
   .main-container{
